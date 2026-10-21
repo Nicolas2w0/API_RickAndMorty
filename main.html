@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty - Personagens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+        <h1>Rick and Morty</h1>
+
+        <div class="busca">
+            <input type="text" id="buscar_nome" placeholder="Nome do personagem" class="input">
+            <button onclick="buscarPersonagem()" id="buscar" class="botao">Buscar</button>
+            <button onclick="buscarAleatorio()" id="aleatorio" class="botao">Aleatório</button>
+        </div>
+
+        <p class="erro" id="erro"></p>
+
+        <div class="personagem">
+            <img id="imagem" src="https://rickandmortyapi.com/api/character/avatar/1.jpeg" alt="Personagem">
+            <h2 id="nome">Nome</h2>
+            <p id="numero">Número:</p>
+            <p id="status">Status:</p>
+            <p id="especie">Espécie:</p>
+            <p id="genero">Gênero:</p>
+            <p id="origem">Origem:</p>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>

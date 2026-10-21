@@ -1,0 +1,67 @@
+body {
+    background-color: #313131;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.card {
+    width: 380px;
+    background-color: #2e8b57;
+    border: 10px solid #1f5e3a;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.busca {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.input {
+    width: 140px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #555;
+    background-color: #f0f0f0;
+}
+
+.botao {
+    background-color: #222;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.personagem {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+.personagem img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.personagem p {
+    margin: 3px 0;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.erro {
+    color: #ffd700;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+}
